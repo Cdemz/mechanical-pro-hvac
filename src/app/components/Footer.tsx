@@ -8,12 +8,12 @@ import { AiFillInstagram } from "react-icons/ai";
 
 const Footer: FC = () => {
   return (
-    <div className="bg-[var(--color-idan)] p-6 md:px-[10rem]">
+    <div className="bg-[var(--color-extra)] p-6 md:px-[10rem]">
       {/* first big div  */}
       <div className="flex gap-4 md:flex-row flex-col justify-between md:items-center mb-6  ">
         {/* image  */}
         <div className="">
-          <Image src="/logo.png" width={300} height={300} alt="logo" />
+          <Image src="/mec logo.png" width={300} height={300} alt="logo" />
         </div>
         {/* menu  */}
         <div className="">
@@ -27,13 +27,16 @@ const Footer: FC = () => {
               <a href="">Services</a>
             </li>
             <li>
-              <a href="https://instagram.com/probuildconllc?igshid=MzRlODBiNWFlZA==">
+              <a
+                href="https://instagram.com/mechanicalprohvac?igshid=MzRlODBiNWFlZA=="
+                target="_blank"
+              >
                 Projects
               </a>
             </li>
             <li>
               <a
-                href="https://instagram.com/probuildconllc?igshid=MzRlODBiNWFlZA=="
+                href="https://instagram.com/mechanicalprohvac?igshid=MzRlODBiNWFlZA=="
                 target="_blank"
               >
                 Blog
@@ -54,34 +57,33 @@ const Footer: FC = () => {
           </p>
           <p className="flex items-center gap-2">
             <IoIosCall className="text-[var(--color-primary)]" size={26} />{" "}
-            +1(860) 707-3762
+            +1(704) 218-9219
           </p>
           <p className="flex items-center gap-2">
-            <HiMailOpen className="text-[var(--color-primary)]" size={26} />{" "}
-            probuildconllc@gmail.com
+            <HiMailOpen className="text-[var(--color-primary)]" size={26} /> To
+            be Updated
           </p>
           <p className="flex items-center gap-2">
             <AiFillInstagram
               className="text-[var(--color-primary)]"
               size={26}
             />
-            probuildconllc
+            To be Updated
           </p>
         </div>
       </div>
       {/* second big div  */}
       <div className="text-[var(--color-text)] justify-start  ">
         <hr className="my-2" />
-        <p>© 2023 PROBUILD CONSTRUCTION, All Rights Reserved.</p>
+        <p>© 2023 MECHANICAL PRO HVAC, All Rights Reserved.</p>
         <p className="text-gray-300">
           We connect you with professional building contractors in your area.
-          Please note that Probuild Construction does not directly own or
-          operate any plumbing services. It is the responsibility of each
-          customer to verify that the service provider they are connected with
-          meets all necessary licensing and insurance requirements as per their
-          state regulations. The images shown are for illustrative purposes only
-          and may not represent the plumbing services available in your specific
-          region.
+          Please note that MECHANICAL PRO HVAC does not directly own or operate
+          any HVAC services. It is the responsibility of each customer to verify
+          that the service provider they are connected with meets all necessary
+          licensing and insurance requirements as per their state regulations.
+          The images shown are for illustrative purposes only and may not
+          represent the HVAC services available in your specific region.
         </p>
       </div>
     </div>

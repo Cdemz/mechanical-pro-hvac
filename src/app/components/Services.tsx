@@ -1,7 +1,10 @@
-import { BsArrowRight, BsBricks } from "react-icons/bs";
+import { BsArrowRight, BsBricks, BsFan } from "react-icons/bs";
+import { LuAirVent } from "react-icons/lu";
 import { GrUserWorker } from "react-icons/gr";
 import { GiMiningHelmet } from "react-icons/gi";
 import Link from "next/link";
+import Image from "next/image";
+import { TbAirConditioning } from "react-icons/tb";
 
 const Services = () => {
   return (
@@ -22,17 +25,39 @@ const Services = () => {
           {/* items start  */}
 
           <div className=" py-6 pl-6 flex flex-col gap-8 bg-white text-[var(--color-text)] hover:text-white focus:text-white hover:bg-red-500 focus:bg-red-500 md:w-[30%]">
-            <BsBricks size={36} />
+            <LuAirVent size={36} />
             <p className="text-3xl font-bold ">
-              Architecture <br /> & Building
+              Ductwork Installation <br /> and Repair
             </p>
             <hr />
-            <p className="w-[90%]">
-              With our expertise in architecture and building, we bring
-              innovative designs to life, ensuring quality craftsmanship and
-              attention to detail throughout the construction process. Trust us
-              to make your dream project a reality.
-            </p>
+            <div className="">
+              <p className="w-[90%]">
+                When it comes to Ductwork Installation and Repair, we offer
+                comprehensive services to ensure proper airflow and distribution
+                of conditioned air throughout your home. Our technicians will
+                assess your ductwork system, identify any leaks or
+                inefficiencies, and provide expert solutions. We handle both
+                installation and repair, ensuring that your ductwork is properly
+                sealed, insulated, and free from any blockages or damages.
+                Properly functioning ductwork ensures efficient heating and
+                cooling, balanced temperature distribution, and improved indoor
+                air quality. With our range of services, we aim to provide you
+                with reliable, efficient, and cost-effective solutions for your
+                heating, cooling, and ductwork needs. Our team of professionals
+                is dedicated to delivering exceptional service, ensuring your
+                comfort and satisfaction.
+              </p>
+              <div className="mt-2">
+                <Image
+                  src="/img3.png"
+                  alt=""
+                  width={300}
+                  height={300}
+                  className="h-full w-full object-cover"
+                />
+              </div>
+            </div>
+
             <Link href="/contact">
               <button className=" flex items-center gap-2   px-5 py-2 rounded-2xl">
                 Free Quote
@@ -45,18 +70,38 @@ const Services = () => {
           {/* item 2 */}
 
           <div className=" py-6 pl-6 flex flex-col gap-8 bg-white text-[var(--color-text)] hover:text-white focus:text-white hover:bg-red-500 focus:bg-red-500 md:w-[30%]">
-            <GrUserWorker size={36} />
+            <TbAirConditioning size={36} />
             <p className="text-3xl font-bold ">
-              Construction <br /> Consultants
+              Air Conditioning (AC) <br /> Repair and Maintenance
             </p>
             <hr />
-            <p className="w-[90%]">
-              we serve as your dedicated construction consultants, providing
-              expert guidance and solutions for your construction projects. With
-              our extensive knowledge and experience, we offer valuable
-              insights, innovative strategies, and meticulous attention to
-              detail to ensure successful project outcomes.
-            </p>
+            <div className="">
+              <p className="w-[90%]">
+                Air Conditioning (AC) Repair and Maintenance, we understand the
+                importance of keeping your AC system running smoothly. Our team
+                of experts is equipped to handle AC repair and maintenance tasks
+                with precision and efficiency. Regular AC maintenance is crucial
+                for keeping your system in peak condition. Our technicians will
+                conduct comprehensive inspections, clean or replace air filters,
+                check refrigerant levels, and perform any necessary adjustments
+                to ensure optimal performance and energy efficiency. In case
+                your AC system requires repairs, our skilled professionals will
+                diagnose the issue and provide the necessary solutions. Our goal
+                is to help you maintain a cool and comfortable indoor
+                environment, while also maximizing energy savings and extending
+                the lifespan of your AC system.
+              </p>
+              <div className="mt-2 h-[15rem]">
+                <Image
+                  src="/img2.png"
+                  alt=""
+                  width={300}
+                  height={300}
+                  className="h-full w-full object-cover"
+                />
+              </div>
+            </div>
+
             <Link href="/contact">
               <button className=" flex items-center gap-2   px-5 py-2 rounded-2xl">
                 Free Quote
@@ -68,17 +113,37 @@ const Services = () => {
           </div>
           {/* items 3 */}
           <div className=" py-6 pl-6 flex flex-col gap-8 bg-white text-[var(--color-text)] hover:text-white focus:text-white hover:bg-red-500 focus:bg-red-500 md:w-[30%]">
-            <GiMiningHelmet size={36} />
+            <BsFan size={36} />
             <p className="text-3xl font-bold ">
-              Construction <br /> Management
+              Heating System <br /> Installation and Repair
             </p>
             <hr />
-            <p className="w-[90%]">
-              With our experienced team and strategic approach, we oversee every
-              aspect, from planning to completion, optimizing resources and
-              timelines. Trust us to handle your construction management needs,
-              delivering successful outcomes with expertise and professionalism.
-            </p>
+            <div className="">
+              <p className="w-[90%]">
+                Heating System Installation and Repair, our skilled technicians
+                are experienced in handling various heating systems, such as
+                furnaces, heat pumps, and boilers. Whether you need a new
+                heating system installed or an existing one repaired, we provide
+                professional and reliable service. Our team will assess your
+                heating requirements, recommend the appropriate system, and
+                handle the entire installation process, ensuring a seamless
+                integration with your home. If you're experiencing issues with
+                your heating system, our technicians will diagnose the problem
+                and perform the necessary repairs to restore optimal
+                functionality. With our heating services, you can enjoy
+                efficient heating, improved comfort, and reduced energy costs.
+              </p>
+              <div className="mt-2">
+                <Image
+                  src="/img1.png"
+                  alt=""
+                  width={300}
+                  height={300}
+                  className="h-full w-full object-cover"
+                />
+              </div>
+            </div>
+
             <Link href="/contact">
               <button className=" flex items-center gap-2   px-5 py-2 rounded-2xl">
                 Free Quote
