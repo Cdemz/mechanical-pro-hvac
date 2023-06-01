@@ -42,7 +42,7 @@ const NavBar: FC = () => {
               </Link>
               <li>
                 <a
-                  href="https://instagram.com/corbinmechanicalllc?igshid=MzRlODBiNWFlZA=="
+                  href="https://instagram.com/mechanicalprohvac?igshid=MzRlODBiNWFlZA=="
                   target="_blank"
                 >
                   Projects
@@ -50,7 +50,7 @@ const NavBar: FC = () => {
               </li>
               <li>
                 <a
-                  href="https://instagram.com/corbinmechanicalllc?igshid=MzRlODBiNWFlZA=="
+                  href="https://instagram.com/mechanicalprohvac?igshid=MzRlODBiNWFlZA=="
                   target="_blank"
                 >
                   Blog
@@ -108,14 +108,14 @@ const NavBar: FC = () => {
               </Link>
               <li className="flex items-center gap-3">
                 <IoMdConstruct />
-                <a href="https://instagram.com/corbinmechanicalllc?igshid=MzRlODBiNWFlZA==">
+                <a href="https://instagram.com/mechanicalprohvac?igshid=MzRlODBiNWFlZA==">
                   Projects
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <AiFillInstagram />
                 <a
-                  href="https://instagram.com/corbinmechanicalllc?igshid=MzRlODBiNWFlZA=="
+                  href="https://instagram.com/mechanicalprohvac?igshid=MzRlODBiNWFlZA=="
                   target="_blank"
                 >
                   Blog
